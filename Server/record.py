@@ -8,7 +8,7 @@ import wave
 def record_sound():
     FORMAT = pyaudio.paInt16
     CHANNELS = 1 #only mono
-    RATE = 44100
+    RATE = 16000
     CHUNK = 1024 # 스트림에서 읽는 프레임의 샘플 수
     RECORD_SECONDS = 3 #3초 녹음
 
